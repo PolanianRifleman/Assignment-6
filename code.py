@@ -8,7 +8,7 @@ while True:
     try:
         k = int(k)
     except ValueError:
-        print("INVALID INPUT. ENTER A NUMBER")
+        print("INVALID INPUT. ENTER A WHOLE NUMBER")
         continue
 
     for n in range(k):
